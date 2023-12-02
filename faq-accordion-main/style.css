@@ -1,0 +1,71 @@
+
+
+body {
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+    background-color: hsl(275, 100%, 97%);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    text-align: left;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    text-wrap: nowrap;
+    width: 100%;
+    text-align: start;
+    justify-content: space-evenly;
+    display: inline-block;
+}
+
+.active, .collapsible:hover {
+    background-color: #fff;
+}
+
+.content {
+    padding: 0 7px;
+    display: none;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+h4 {
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.minus-img {
+    justify-content: space-evenly;
+    content: url("./assets/images/icon-minus.svg");
+}
+
+.plus {
+    content: url("./assets/images/icon-plus.svg");
+}
+
